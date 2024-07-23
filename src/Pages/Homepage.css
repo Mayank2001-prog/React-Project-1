@@ -1,0 +1,23 @@
+body {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  width: 100%;
+}
+.flexbox {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  width: 600px;
+}
+
+button {
+  background-color: #22a1ad;
+  color: #fff;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+  width: 30%;
+  margin: 20px auto;
+}
