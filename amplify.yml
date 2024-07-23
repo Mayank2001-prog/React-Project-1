@@ -16,4 +16,5 @@ frontend:
       - .npm/**/*
   postBuild:
     commands:
-      - ./postbuild.sh
+      - ./notify-discord.sh success
+      - ./notify-discord.sh failure
